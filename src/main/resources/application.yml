@@ -21,6 +21,8 @@ spring:
     thymeleaf:
         mode: LEGACYHTML5
         prefix: classpath:/templates/
+    freemarker:
+      request-context-attribute: rc
 
 #配置redis
 redis:
