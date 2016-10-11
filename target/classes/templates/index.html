@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>Doubles Blog</title>
@@ -7,17 +7,22 @@
     <meta name="description" content="double blog">
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
-<body ng-app="">
-<div ng-include="'view/common/head.html'"></div>
+<body ng-app="blog">
+<div ng-include="'web/common/head.html'"></div>
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h1 class="title">Welcome!</h1>
-            <a href="/logout">退出</a>
+        <div class="col-md-8">
+            <div ng-include="'web/common/blogList.html'"></div>
+        </div>
+        <div class="col-md-4">
         </div>
     </div>
 </div>
 <script src="js/angular.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="web/common/app.js"></script>
+<script src="web/js/blogController.js"></script>
 </body>
 </html>

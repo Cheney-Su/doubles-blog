@@ -5,8 +5,10 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/doubles/utils/HtmlUtils.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/templates/css/bootstrap.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/templates/img/BingWallpaper.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/js/angular-route.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/templates/js/angular.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/templates/js/bootstrap.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/templates/js/bootstrap.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html" charset="UTF-8" />
   </component>
 </project>
