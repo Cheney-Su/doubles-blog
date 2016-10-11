@@ -32,8 +32,7 @@ public class BlogDao {
             entity.setReadCount(rs.getInt("readCount"));
             entity.setTitle(rs.getString("title").toString());
             entity.setBlogType(rs.getString("blogType").toString());
-            System.out.println(HtmlUtils.clean(rs.getString("content").toString()));
-            entity.setContent(HtmlUtils.clean(rs.getString("content").toString()));
+            entity.setContent(rs.getString("content").toString());
             entity.setAbstracts(rs.getString("abstracts").toString());
             entity.setBlogClassName(rs.getString("blogClassName").toString());
             entity.setBlogClassId(rs.getInt("blogClassId"));
@@ -41,5 +40,26 @@ public class BlogDao {
             list.add(entity);
         }
         return list;
+    }
+
+    public Blog info(String id) {
+        Blog entity = null;
+        String sql = "select * from tb_blog t where t.id = ? limit 1";
+        SqlRowSet rs = jdbcTemplate.queryForRowSet(sql, new Object[]{id});
+        if (rs.next()) {
+            entity = new Blog();
+            entity.setId(rs.getInt("id"));
+            entity.setAuthor(rs.getString("author").toString());
+            entity.setCreateTime(rs.getString("createTime").toString());
+            entity.setReadCount(rs.getInt("readCount"));
+            entity.setTitle(rs.getString("title").toString());
+            entity.setBlogType(rs.getString("blogType").toString());
+            entity.setContent(rs.getString("content").toString());
+            entity.setAbstracts(rs.getString("abstracts").toString());
+            entity.setBlogClassName(rs.getString("blogClassName").toString());
+            entity.setBlogClassId(rs.getInt("blogClassId"));
+            entity.setKeyWords(rs.getString("keyWords").toString());
+        }
+        return entity;
     }
 }

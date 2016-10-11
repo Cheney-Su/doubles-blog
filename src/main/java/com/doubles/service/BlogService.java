@@ -19,4 +19,8 @@ public class BlogService {
     public List<Blog> list(int page, int pageSize) {
         return blogDao.list(page, pageSize);
     }
+
+    public Blog info(String id) {
+        return blogDao.info(id);
+    }
 }

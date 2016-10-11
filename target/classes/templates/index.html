@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Doubles Blog</title>
-    <meta name="keywords" content="double blog">
-    <meta name="description" content="double blog">
+    <meta name="keywords" content="doubles blog">
+    <meta name="description" content="doubles blog">
     <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body ng-app="blog">
@@ -14,15 +14,17 @@
         <div class="col-md-8">
             <div ng-include="'web/common/blogList.html'"></div>
         </div>
-        <div class="col-md-4">
-        </div>
+        <div ng-include="'web/common/rightNav.html'"></div>
     </div>
+    <div ng-view></div>
 </div>
 <script src="js/angular.js"></script>
 <script src="js/angular-route.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
 <script src="js/jquery-1.11.1.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="web/common/app.js"></script>
 <script src="web/js/blogController.js"></script>
+<script src="web/js/rigthNavController.js"></script>
 </body>
 </html>

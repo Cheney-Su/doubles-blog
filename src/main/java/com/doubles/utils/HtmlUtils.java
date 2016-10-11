@@ -19,10 +19,10 @@ public class HtmlUtils {
     }
 
     public static String clean(String htmlStr) {
-//        return Jsoup.clean(htmlStr,whitelist);
-        Document doc = Jsoup.parse(htmlStr);
-        Elements elements = doc.getElementsByTag("p");
-        return elements.get(0).text();
+        return Jsoup.clean(htmlStr, whitelist);
+//        Document doc = Jsoup.parse(htmlStr);
+//        Elements elements = doc.getElementsByTag("p");
+//        return elements.get(0).text();
     }
 
 }

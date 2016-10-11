@@ -6,7 +6,7 @@ blog.controller("blogController", function ($scope, $http) {
     //     $scope.blogs = data;
     // })
     $http.get('blog/list/').success(function (data) {
-        // console.info(data)
         $scope.blogs = data.data;
+//        console.info($scope.blogs)
     })
 })
