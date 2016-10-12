@@ -1,0 +1,11 @@
+body{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.author:link, .author:visited {
+    color: orange;
+}
+
+.author:hover {
+    color: chocolate;
+}

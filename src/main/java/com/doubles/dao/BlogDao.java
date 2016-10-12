@@ -32,7 +32,7 @@ public class BlogDao {
             entity.setReadCount(rs.getInt("readCount"));
             entity.setTitle(rs.getString("title").toString());
             entity.setBlogType(rs.getString("blogType").toString());
-            entity.setContent(rs.getString("content").toString());
+            entity.setContent(HtmlUtils.clean(400 > rs.getString("content").toString().length() ? rs.getString("content").toString() : rs.getString("content").toString().substring(0, 400)));
             entity.setAbstracts(rs.getString("abstracts").toString());
             entity.setBlogClassName(rs.getString("blogClassName").toString());
             entity.setBlogClassId(rs.getInt("blogClassId"));
@@ -42,10 +42,10 @@ public class BlogDao {
         return list;
     }
 
-    public Blog info(String id) {
+    public Blog info(String blogId) {
         Blog entity = null;
         String sql = "select * from tb_blog t where t.id = ? limit 1";
-        SqlRowSet rs = jdbcTemplate.queryForRowSet(sql, new Object[]{id});
+        SqlRowSet rs = jdbcTemplate.queryForRowSet(sql, new Object[]{blogId});
         if (rs.next()) {
             entity = new Blog();
             entity.setId(rs.getInt("id"));

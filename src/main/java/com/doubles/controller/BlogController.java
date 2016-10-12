@@ -3,6 +3,7 @@ package com.doubles.controller;
 import com.doubles.entity.Blog;
 import com.doubles.entity.Result;
 import com.doubles.service.BlogService;
+import com.doubles.utils.StringUtils;
 import com.doubles.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +19,7 @@ import java.util.List;
 public class BlogController {
 
     public static final String BLOGLIST = "/list/";
-    public static final String BLOGINFO = "/list/{id}";
+    public static final String BLOGINFO = "/list/{blogId}";
 
     @Autowired
     private BlogService blogService;
@@ -31,8 +32,10 @@ public class BlogController {
     }
 
     @RequestMapping(value = {BLOGINFO})
-    public Result info(@PathVariable String id) {
-        Blog blog = blogService.info(id);
+    public Result info(@PathVariable String blogId) {
+        if (StringUtils.isEmpty(blogId))
+            return new Result(-1, "", "参数blogId不能为空");
+        Blog blog = blogService.info(blogId);
         if (Utils.isEmpty(blog))
             return new Result(0, "", "未查询到数据");
         return new Result(0, blog, "success");

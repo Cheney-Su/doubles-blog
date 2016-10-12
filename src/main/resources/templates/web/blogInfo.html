@@ -1,4 +1,4 @@
-<div class="col-md-8">
+<div class="col-md-8" ng-controller="blogController">
     <ol class="breadcrumb">
         <li><a href="#/">主页</a></li>
         <li><a href="#/">{{blog.blogClassName}}</a></li>
@@ -21,5 +21,35 @@
             <div ng-bind-html="blog.content | trustHtml">
             </div>
         </div>
+    </div>
+    <div class="panel panel-primary" style="padding : 10px">
+        <div class="page-header">
+            <h4><b style="margin-left : 5px">共有<span style="color: brown">{{replys.length}}</span>个评论</b></h4>
+        </div>
+        <div ng-repeat="reply in replys">
+            <div class="panel panel-default">
+                <div class="panel-heading reply-info">
+                    <span><a href="" class="author">{{reply.owner.nickName}}</a></span>
+                    <span><a href="" class="btn btn-link">回复({{reply.childs.length}})</a></span>
+                    <span>{{reply.createTime | limitTo:10}}</span>
+                </div>
+                <div class="panel-body reply-info">
+                    <span style="padding-left: 5px">{{reply.content}}</span>
+                    <div ng-repeat="rc in reply.childs" style="padding-top: 5px">
+                        <span><a href="" class="author">{{rc.owner.nickName}}</a> </span>
+                        <span>回复</span>
+                        <span><a href="" class="author">{{rc.toUser.nickName}}</a> </span>
+                        <span>：{{rc.content}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form id="reply-from">
+            <textarea name="content" style="width:100%;height:150px;"></textarea>
+            <input type="hidden" value="{{blog.id}}" name="blogId"/>
+            <button type="button"
+                    class="btn btn-primary" style="margin-top: 5px" ng-click="blogReply()">发表评论
+            </button>
+        </form>
     </div>
 </div>

@@ -67,7 +67,7 @@ public class Blog {
     }
 
     public String getContent() {
-        return HtmlUtils.clean(400 > content.length() ? content : content.substring(0, 400));
+        return content;
     }
 
     public void setContent(String content) {

@@ -20,7 +20,7 @@ public class BlogService {
         return blogDao.list(page, pageSize);
     }
 
-    public Blog info(String id) {
-        return blogDao.info(id);
+    public Blog info(String blogId) {
+        return blogDao.info(blogId);
     }
 }

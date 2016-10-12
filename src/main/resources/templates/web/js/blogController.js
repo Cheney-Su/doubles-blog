@@ -14,6 +14,18 @@ blog.controller("blogController", function ($scope, $http, $routeParams) {
         $http.get('blog/list/' + $routeParams.id).success(function (data) {
             console.info(data)
             $scope.blog = data.data;
+        });
+
+        $http.get('reply/' + $routeParams.id).success(function (data) {
+            console.info(data)
+            $scope.replys = data.data;
         })
+    }
+
+    $scope.blogReply = function($scope){
+        var data = {};
+        data['blogId'] = $("#reply-from [name='blogId']").val();
+        data['content'] = $("#reply-from [name='content']").val();
+        console.info(data)
     }
 })
