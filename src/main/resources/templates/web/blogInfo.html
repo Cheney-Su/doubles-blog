@@ -1,29 +1,25 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="UTF-8">
-    <title>Doubles Blog</title>
-    <meta name="keywords" content="doubles blog">
-    <meta name="description" content="doubles blog">
-    <link href="css/bootstrap.css" rel="stylesheet">
-</head>
-<body>
-<div ng-include="'web/common/head.html'"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div ng-include="'web/common/blogList.html'"></div>
+<div class="col-md-8">
+    <ol class="breadcrumb">
+        <li><a href="#/">主页</a></li>
+        <li><a href="#/">{{blog.blogClassName}}</a></li>
+        <li class="active">{{blog.title}}</li>
+    </ol>
+    <div class="panel panel-primary">
+        <div class="page-header" style="text-align: center;">
+            <h1>{{blog.title}}</h1>
+            <div style="padding: 5px">
+                <span>作者：<a href="#/">{{blog.author}}</a></span>
+                <span>{{blog.createTime | limitTo:10}}</span>
+            </div>
+            <div style="padding: 5px">
+                <label class="label label-success">{{blog.blogType}}</label>
+                <label class="label label-warning">{{blog.blogClassName}}</label>
+                <!--<div ng-if="'{{blog.keyWords}}'"></div>-->
+            </div>
         </div>
-        <div ng-include="'web/common/rightNav.html'"></div>
+        <div class="panel-body">
+            <div ng-bind-html="blog.content | trustHtml">
+            </div>
+        </div>
     </div>
 </div>
-<script src="js/angular.js"></script>
-<script src="js/angular-route.min.js"></script>
-<script src="js/angular-sanitize.min.js"></script>
-<script src="js/jquery-1.11.1.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="web/common/app.js"></script>
-<script src="web/js/blogController.js"></script>
-<script src="web/js/rigthNavController.js"></script>
-</body>
-</html>

@@ -1,10 +1,10 @@
-<div ng-controller="blogController">
+<div class="col-md-8" ng-controller="blogController">
     <div ng-repeat="blog in blogs">
         <div class="panel panel-primary">
             <div class="page-header" style="text-align: center;">
-                <h1><a href="#">{{blog.title}}</a></h1>
+                <h1><a href="#/">{{blog.title}}</a></h1>
                 <div style="padding: 5px">
-                    <span>作者：<a href="#">{{blog.author}}</a></span>
+                    <span>作者：<a href="#/">{{blog.author}}</a></span>
                     <span>{{blog.createTime | limitTo:10}}</span>
                 </div>
                 <div style="padding: 5px">
@@ -17,7 +17,7 @@
                 <div ng-bind-html="blog.content | trustHtml">
                 </div>
                 <div>
-                    <a href="blog/list/{{blog.id}}" class="btn btn-primary">阅读全文</a>
+                    <a href="#/blog/list/{{blog.id}}" class="btn btn-primary">阅读全文</a>
                 </div>
             </div>
         </div>

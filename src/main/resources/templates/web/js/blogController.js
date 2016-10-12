@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2016/10/10 0010.
  */
-blog.controller("blogController", function ($scope, $http) {
+blog.controller("blogController", function ($scope, $http, $routeParams) {
     // $http.get('web/mock/blogList.json').success(function (data) {
     //     $scope.blogs = data;
     // })
@@ -9,4 +9,11 @@ blog.controller("blogController", function ($scope, $http) {
         $scope.blogs = data.data;
 //        console.info($scope.blogs)
     })
+
+    if ($routeParams.id != undefined) {
+        $http.get('blog/list/' + $routeParams.id).success(function (data) {
+            console.info(data)
+            $scope.blog = data.data;
+        })
+    }
 })

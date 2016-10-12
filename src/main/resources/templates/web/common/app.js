@@ -3,12 +3,17 @@
  */
 var blog = angular.module("blog", ['ngSanitize', 'ngRoute']);
 
-blog.config(function ($routeProvider, $locationProvider) {
-    $routeProvider.when('/blog/list/', {
-        templateUrl: '/blogInfo.html',
-        controller: 'blogController''
+blog.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider.when('/', {
+        templateUrl: '/web/common/blogList.html',
+        controller: 'blogController'
+    }).when('/blog/list/:id', {
+        templateUrl: '/web/blogInfo.html',
+        controller: 'blogController'
+    }).otherwise({
+        redirectTo: '/'
     });
-})
+}])
 
 blog.filter('trustHtml', ['$sce', function ($sce) {
     return function (text) {
