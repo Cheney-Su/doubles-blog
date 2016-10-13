@@ -47,6 +47,7 @@
         <form id="reply-from">
             <textarea name="content" style="width:100%;height:150px;"></textarea>
             <input type="hidden" value="{{blog.id}}" name="blogId"/>
+            <input type="hidden" name="toUserId" value="{{blog.userId}}"/>
             <button type="button"
                     class="btn btn-primary" style="margin-top: 5px" ng-click="blogReply()">发表评论
             </button>

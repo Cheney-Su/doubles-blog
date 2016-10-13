@@ -7,6 +7,7 @@ import com.doubles.utils.HtmlUtils;
  */
 public class Blog {
     private int id;
+    private int userId;
     private String author;
     private String createTime;
     private int readCount;
@@ -24,6 +25,14 @@ public class Blog {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getAuthor() {

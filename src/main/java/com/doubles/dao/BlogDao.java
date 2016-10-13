@@ -27,6 +27,7 @@ public class BlogDao {
         while (rs != null && rs.next()) {
             Blog entity = new Blog();
             entity.setId(rs.getInt("id"));
+            entity.setUserId(rs.getInt("userId"));
             entity.setAuthor(rs.getString("author").toString());
             entity.setCreateTime(rs.getString("createTime").toString());
             entity.setReadCount(rs.getInt("readCount"));
@@ -49,6 +50,7 @@ public class BlogDao {
         if (rs.next()) {
             entity = new Blog();
             entity.setId(rs.getInt("id"));
+            entity.setUserId(rs.getInt("userId"));
             entity.setAuthor(rs.getString("author").toString());
             entity.setCreateTime(rs.getString("createTime").toString());
             entity.setReadCount(rs.getInt("readCount"));

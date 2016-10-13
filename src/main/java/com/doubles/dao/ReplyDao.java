@@ -2,12 +2,14 @@ package com.doubles.dao;
 
 import com.doubles.entity.Reply;
 import com.doubles.entity.User;
+import com.doubles.utils.Constant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -33,8 +35,8 @@ public class ReplyDao {
                 .append("   owner.id ownerId,owner.nickName ownerNickName,owner.createTime ownerCreateTime,")
                 .append("   toUser.id toUserId,toUser.nickName toUserNickName,toUser.createTime toUserCreateTime")
                 .append("   from tb_reply t ,tb_user OWNER,tb_user toUser")
-                .append("   where t.blogId = ? and t.rootId is null and t.ownerId = owner.id and t.toUserId = toUser.id");
-        SqlRowSet rs = jdbcTemplate.queryForRowSet(sb.toString(), new Object[]{blogId});
+                .append("   where t.blogId = ? and t.rootId = ? and t.ownerId = owner.id and t.toUserId = toUser.id");
+        SqlRowSet rs = jdbcTemplate.queryForRowSet(sb.toString(), new Object[]{blogId, 0});
         while (rs != null && rs.next()) {
             Reply entity = new Reply();
             entity.setId(rs.getInt("id"));
@@ -98,5 +100,18 @@ public class ReplyDao {
             list.add(entity);
         }
         return list;
+    }
+
+    public boolean add(Reply params) {
+        String createTime = Constant.SDFDATE.format(new Date());
+        params.setCreateTime(createTime);
+        String sql = "insert into tb_reply values(?,?,?,?,?,?,?)";
+
+        int result = jdbcTemplate.update(sql, new Object[]{params.getId(), params.getBlogId(), params.getRootId(), params.getContent(),
+                params.getCreateTime(), params.getOwnerId(), params.getToUserId()});
+        if (result > 0)
+            return true;
+        else
+            return false;
     }
 }

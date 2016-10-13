@@ -4,6 +4,7 @@ import com.doubles.dao.BlogClassDao;
 import com.doubles.dao.ReplyDao;
 import com.doubles.entity.BlogClass;
 import com.doubles.entity.Reply;
+import com.doubles.entity.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,5 +21,13 @@ public class ReplyService {
 
     public List<Reply> replyListByBlogId(String blogId) {
         return replyDao.replyListByBlogId(blogId);
+    }
+
+    public Result add(Reply params) {
+        boolean flag = replyDao.add(params);
+        if (flag)
+            return new Result(0, "", "success");
+        else
+            return new Result(-1, "", "系统异常");
     }
 }
