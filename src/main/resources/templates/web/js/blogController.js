@@ -7,6 +7,7 @@ blog.controller("blogController", function ($scope, $http, $routeParams) {
     // })
 
     $http.get('blog/list/').success(function (data) {
+        var me = this
         $scope.blogs = data.data;
 //        console.info($scope.blogs)
     })
@@ -30,7 +31,8 @@ blog.controller("blogController", function ($scope, $http, $routeParams) {
         $http.post('reply/add', data).success(function (data) {
             if (data.status == 0) {
                 console.info($scope)
-                window.location.reload()
+                $scope.blogs.ajax.reload(null, false)
+                // window.location.reload()
             } else {
                 alert(data.msg)
                 return
