@@ -1,7 +1,7 @@
-<div class="col-md-8" ng-controller="blogController">
+<div class="col-md-8">
     <ol class="breadcrumb">
         <li><a href="#/">主页</a></li>
-        <li><a href="#/">{{blog.blogClassName}}</a></li>
+        <li><a href="#/blogClass/list/{{blog.blogClassId}}">{{blog.blogClassName}}</a></li>
         <li class="active">{{blog.title}}</li>
     </ol>
     <div class="panel panel-primary">
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div class="panel panel-primary replyList" style="padding : 10px">
+    <div class="panel panel-primary replyList" style="padding : 10px" ng-model="replys">
         <div class="page-header">
             <h4><b style="margin-left : 5px">共有<span style="color: brown">{{replys.length}}</span>个评论</b></h4>
         </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <form id="reply-from">
-            <textarea name="content" style="width:100%;height:150px;"></textarea>
+            <textarea name="content" style="width:100%;height:150px;" ng-model="content"></textarea>
             <input type="hidden" value="{{blog.id}}" name="blogId"/>
             <input type="hidden" name="toUserId" value="{{blog.userId}}"/>
             <button type="button"

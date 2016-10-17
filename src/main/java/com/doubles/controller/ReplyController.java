@@ -37,7 +37,7 @@ public class ReplyController {
 
     @RequestMapping(value = {ADDREPLY}, method = RequestMethod.POST)
     public Result addReply(@RequestBody Reply params) {
-        System.out.println(new Gson().toJson(params));
+//        System.out.println(new Gson().toJson(params));
         if (0 == params.getBlogId() || StringUtils.isEmpty(params.getContent())
                 || 0 == params.getOwnerId() || 0 == params.getToUserId())
             return new Result(-1, "", "参数不正确");

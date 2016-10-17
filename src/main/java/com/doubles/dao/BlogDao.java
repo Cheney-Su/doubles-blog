@@ -24,23 +24,23 @@ public class BlogDao {
         List<Blog> list = new ArrayList<Blog>();
         String sql = "select * from tb_blog t order by t.createTime desc limit ?,?";
         SqlRowSet rs = jdbcTemplate.queryForRowSet(sql, new Object[]{start, end});
-        while (rs != null && rs.next()) {
-            Blog entity = new Blog();
-            entity.setId(rs.getInt("id"));
-            entity.setUserId(rs.getInt("userId"));
-            entity.setAuthor(rs.getString("author").toString());
-            entity.setCreateTime(rs.getString("createTime").toString());
-            entity.setReadCount(rs.getInt("readCount"));
-            entity.setTitle(rs.getString("title").toString());
-            entity.setBlogType(rs.getString("blogType").toString());
-            entity.setContent(HtmlUtils.clean(400 > rs.getString("content").toString().length() ? rs.getString("content").toString() : rs.getString("content").toString().substring(0, 400)));
-            entity.setAbstracts(rs.getString("abstracts").toString());
-            entity.setBlogClassName(rs.getString("blogClassName").toString());
-            entity.setBlogClassId(rs.getInt("blogClassId"));
-            entity.setKeyWords(rs.getString("keyWords").toString());
-            list.add(entity);
-        }
-        return list;
+            while (rs != null && rs.next()) {
+                Blog entity = new Blog();
+                entity.setId(rs.getInt("id"));
+                entity.setUserId(rs.getInt("userId"));
+                entity.setAuthor(rs.getString("author").toString());
+                entity.setCreateTime(rs.getString("createTime").toString());
+                entity.setReadCount(rs.getInt("readCount"));
+                entity.setTitle(rs.getString("title").toString());
+                entity.setBlogType(rs.getString("blogType").toString());
+                entity.setContent(HtmlUtils.clean(400 > rs.getString("content").toString().length() ? rs.getString("content").toString() : rs.getString("content").toString().substring(0, 400)));
+                entity.setAbstracts(rs.getString("abstracts").toString());
+                entity.setBlogClassName(rs.getString("blogClassName").toString());
+                entity.setBlogClassId(rs.getInt("blogClassId"));
+                entity.setKeyWords(rs.getString("keyWords").toString());
+                list.add(entity);
+            }
+            return list;
     }
 
     public Blog info(String blogId) {

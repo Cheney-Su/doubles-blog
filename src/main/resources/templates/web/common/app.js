@@ -7,11 +7,12 @@ blog.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: '/web/common/blogList.html',
         controller: 'blogController'
-    }).when('/blog/list/:id', {
+    }).when('/blog/list/:blogId', {
         templateUrl: '/web/blogInfo.html',
         controller: 'blogController'
-    }).otherwise({
-        redirectTo: '/'
+    }).when('/blogClass/list/:blogClassId', {
+        templateUrl: '/web/common/blogList.html',
+        controller: 'blogController'
     });
 }])
 

@@ -1,4 +1,8 @@
-<div class="col-md-8" ng-controller="blogController">
+<div class="col-md-8">
+    <ol class="breadcrumb" ng-model="blogClass">
+        <li><a href="#/">主页</a></li>
+        <li ng-if="blogClass" class="active">{{blogClass.name}}</li>
+    </ol>
     <div ng-repeat="blog in blogs">
         <div class="panel panel-primary">
             <div class="page-header" style="text-align: center;">

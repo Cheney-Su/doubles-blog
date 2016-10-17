@@ -35,7 +35,7 @@ public class ReplyDao {
                 .append("   owner.id ownerId,owner.nickName ownerNickName,owner.createTime ownerCreateTime,")
                 .append("   toUser.id toUserId,toUser.nickName toUserNickName,toUser.createTime toUserCreateTime")
                 .append("   from tb_reply t ,tb_user OWNER,tb_user toUser")
-                .append("   where t.blogId = ? and t.rootId = ? and t.ownerId = owner.id and t.toUserId = toUser.id");
+                .append("   where t.blogId = ? and t.rootId = ? and t.ownerId = owner.id and t.toUserId = toUser.id order by t.createTime desc");
         SqlRowSet rs = jdbcTemplate.queryForRowSet(sb.toString(), new Object[]{blogId, 0});
         while (rs != null && rs.next()) {
             Reply entity = new Reply();
@@ -110,7 +110,7 @@ public class ReplyDao {
         int result = jdbcTemplate.update(sql, new Object[]{params.getId(), params.getBlogId(), params.getRootId(), params.getContent(),
                 params.getCreateTime(), params.getOwnerId(), params.getToUserId()});
         if (result > 0)
-            return true;
+        return true;
         else
             return false;
     }

@@ -1,6 +1,7 @@
 package com.doubles.service;
 
 import com.doubles.dao.BlogClassDao;
+import com.doubles.entity.Blog;
 import com.doubles.entity.BlogClass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,5 +19,9 @@ public class BlogClassService {
 
     public List<BlogClass> list() {
         return blogClassDao.list();
+    }
+
+    public List<Blog> blogListFromClassId(String blogClassId) {
+        return blogClassDao.blogListFromClassId(blogClassId);
     }
 }

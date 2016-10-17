@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Demo - Apache Shiro integration with Spring Boot</title>
+
+    <script src="../js/angular.js"></script>
+    <script>
+        var module = angular.module('test', []);
+        module.controller('ModelController', function ($scope, $http) {
+            $scope.Names = ['1', '2', '3'];
+            $scope.a1 = function () {
+                $scope.Names.push('a');
+                $apply();
+            };
+        });
+    </script>
 </head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="title">Welcome!</h1>
-            <a href="/logout">退出</a>
-        </div>
-    </div>
-</div>
+<body ng-app="test" ng-controller="ModelController">
+<div ng-repeat="name in Names" ng-model="Names">{{name}}</div>
+<button ng-click="a1();">Add</button>
+
 </body>
 </html>

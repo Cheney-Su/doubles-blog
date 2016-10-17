@@ -1,0 +1,57 @@
+<section class="content">
+    <div class="box box-default">
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>标题</label>
+                        <input id="title" type="text" class="form-control" placeholder="title...">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>关键字(多个用逗号隔开)</label>
+                        <input id="keyWords" type="text" class="form-control" placeholder="keyWords...">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>博客类型</label>
+                        <select id="blogType" class="form-control select2 select2-hidden-accessible">
+                            <option value="原创" selected>原创</option>
+                            <option value="转载">转载</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>博客分类</label>
+                        <select id="blogClassId" class="form-control select2 select2-hidden-accessible">
+                            <option value="原创" selected>原创</option>
+                            <option value="转载">转载</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>博客摘要</label>
+                        <textarea id="abstracts" class="form-control" placeholder="abstracts..."></textarea>
+                    </div>
+                </div>
+                <div id="blog-content" class="col-md-12">
+                    <div class="form-group">
+                        <label>博客正文</label>
+                        <textarea name="content" id="editor" style="width: 100%;height: 280px"></textarea>
+                        <button type="button" class="btn btn-primary" style="margin-top: 5px">发表博客</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="../../ueditor/ueditor.config.js"></script>
+<script src="../../ueditor/ueditor.all.js"></script>
+<script src="../../ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+    var ue = UE.getEditor("editor");
+</script>

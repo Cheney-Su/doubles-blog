@@ -1,0 +1,37 @@
+<table class="table">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>author</th>
+        <th>createTime</th>
+        <th>readCount</th>
+        <th>title</th>
+        <th>blogType</th>
+        <th>content</th>
+        <th>type</th>
+        <th>keyWords</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody ng-repeat="blog in blogs">
+    <tr>
+        <td style="vertical-align: middle">{{blog.id}}</td>
+        <td style="vertical-align: middle">{{blog.author}}</td>
+        <td style="vertical-align: middle">{{blog.createTime}}</td>
+        <td style="vertical-align: middle">{{blog.readCount}}</td>
+        <td style="vertical-align: middle">{{blog.title}}</td>
+        <td style="vertical-align: middle">{{blog.blogType}}</td>
+        <td style="vertical-align: middle">
+            <div ng-bind-html="blog.content | trustHtml"></div>
+        </td>
+        <td style="vertical-align: middle">{{blog.blogClassName}}</td>
+        <td style="vertical-align: middle">{{blog.keyWords}}</td>
+        <td style="vertical-align: middle">
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary">查看/修改</button>
+                <button type="button" class="btn btn-danger">删除</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -1,4 +1,4 @@
-<div class="col-md-4" ng-controller="rightNavController">
+<div class="col-md-4" ng-controller="blogController">
     <div class="panel panel-primary">
         <div class="panel-heading">
             <b>站内搜索</b>
@@ -23,7 +23,7 @@
         </div>
         <div class="panel-body">
             <div class="btn-group" ng-repeat="blogClass in blogClasses">
-                <a href="#/" class="btn btn-link">
+                <a href="#/blogClass/list/{{blogClass.id}}" class="btn btn-link">
                     {{blogClass.className}}
                 </a>
             </div>

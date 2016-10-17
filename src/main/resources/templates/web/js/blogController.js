@@ -5,38 +5,77 @@ blog.controller("blogController", function ($scope, $http, $routeParams) {
     // $http.get('web/mock/blogList.json').success(function (data) {
     //     $scope.blogs = data;
     // })
-
-    $http.get('blog/list/').success(function (data) {
-        var me = this
-        $scope.blogs = data.data;
-//        console.info($scope.blogs)
-    })
-
-    if ($routeParams.id != undefined) {
-        $http.get('blog/list/' + $routeParams.id).success(function (data) {
-            $scope.blog = data.data;
+    if ($routeParams.blogClassId != undefined) {
+        $http.get('blogClass/list/' + $routeParams.blogClassId).success(function (data) {
+            if (data.status == 0) {
+                $scope.blogs = data.data;
+                $scope.blogClass = {
+                    name: data.data[0].blogClassName,
+                }
+            } else if (data.status == -1) {
+                $scope.message = data.msg;
+            }
         });
-
-        $http.get('reply/' + $routeParams.id).success(function (data) {
-            $scope.replys = data.data;
+    } else {
+        $http.get('blog/list/').success(function (data) {
+            if (data.status == 0) {
+                $scope.blogs = data.data;
+            } else if (data.status == -1) {
+                $scope.message = data.msg;
+            }
         })
     }
 
+    if ($routeParams.blogId != undefined) {
+
+        $http.get('blog/list/' + $routeParams.blogId).success(function (data) {
+            $scope.blog = data.data;
+        });
+
+        $http.get('reply/' + $routeParams.blogId).success(function (data) {
+            $scope.replys = data.data;
+        })
+
+        // $http.get('reply/' + $routeParams.id).success(function (data) {
+        //     $scope.replys = data.data;
+        // })
+    }
+
+    $http.get('blogClass/list/').success(function (data) {
+        $scope.blogClasses = data.data;
+//        console.info($scope.blogs)
+    })
+
     $scope.blogReply = function () {
-        var data = {};
-        data['blogId'] = $("#reply-from [name='blogId']").val();
-        data['content'] = $("#reply-from [name='content']").val();
-        data['ownerId'] = 1;
-        data['toUserId'] = $("#reply-from [name='toUserId']").val();
-        $http.post('reply/add', data).success(function (data) {
+        var me = this;
+        var reply = {};
+        reply['blogId'] = $("#reply-from [name='blogId']").val();
+        // reply['rootId'] = 0;
+        reply['content'] = $("#reply-from [name='content']").val();
+        // reply['createTime'] = formatDate(new Date())
+        reply['ownerId'] = 1;
+        reply['toUserId'] = $("#reply-from [name='toUserId']").val();
+        // console.info($scope.replys)
+        $http.post('reply/add', reply, me).success(function (data) {
             if (data.status == 0) {
-                console.info($scope)
-                $scope.blogs.ajax.reload(null, false)
-                // window.location.reload()
+                $http.get('reply/' + $routeParams.blogId).success(function (data) {
+                    me.replys = data.data;
+                })
+                me.content = ''
             } else {
                 alert(data.msg)
                 return
             }
         })
     }
+
+    // function formatDate(now) {
+    //     var year = now.getFullYear();
+    //     var month = now.getMonth() + 1;
+    //     var date = now.getDate();
+    //     var hour = now.getHours();
+    //     var minute = now.getMinutes();
+    //     var second = now.getSeconds();
+    //     return year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
+    // }
 })
