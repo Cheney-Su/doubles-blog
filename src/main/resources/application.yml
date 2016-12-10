@@ -6,7 +6,7 @@
 debug: true
 spring:
     resources:
-      static-locations: classpath:/templates/,classpath:/static/,classpath:/resources/
+      static-locations: classpath:/templates/,classpath:/static/,classpath:/resources/,classpath:/resources/ueditor/
     datasource:
         #配置多个数据源
         doubles_blog:

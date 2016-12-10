@@ -21,6 +21,7 @@ public class BlogController {
     public static final String BLOGLIST = "/list/";
     public static final String BLOGINFO = "/list/{blogId}";
     public static final String SAVE = "/save";
+    public static final String DELETE = "/delete/{blogId}";
 
     @Autowired
     private BlogService blogService;
@@ -44,6 +45,12 @@ public class BlogController {
 
     @RequestMapping(value = {SAVE}, method = RequestMethod.POST)
     public Result save(@RequestBody Blog params) {
-        return new Result(0, "", "success");
+        return blogService.save(params);
     }
+
+    @RequestMapping(value = {DELETE}, method = RequestMethod.DELETE)
+    public Result delete(@PathVariable String blogId) {
+        return blogService.delete(blogId);
+    }
+
 }

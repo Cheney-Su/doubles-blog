@@ -28,8 +28,8 @@
         <td style="vertical-align: middle">{{blog.keyWords}}</td>
         <td style="vertical-align: middle">
             <div class="btn-group-vertical">
-                <button type="button" class="btn btn-primary">查看/修改</button>
-                <button type="button" class="btn btn-danger">删除</button>
+                <a href="#/blog/list/{{blog.id}}" type="button" class="btn btn-primary">查看/修改</a>
+                <a type="button" class="btn btn-danger" ng-click="deleteBlog()">删除</a>
             </div>
         </td>
     </tr>

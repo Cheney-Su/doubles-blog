@@ -1,22 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
 
-    <script src="../js/angular.js"></script>
-    <script>
-        var module = angular.module('test', []);
-        module.controller('ModelController', function ($scope, $http) {
-            $scope.Names = ['1', '2', '3'];
-            $scope.a1 = function () {
-                $scope.Names.push('a');
-                $apply();
-            };
-        });
+    <!--<script src="../js/angular.js"></script>-->
+    <!--<script>-->
+        <!--var module = angular.module('test', []);-->
+        <!--module.controller('ModelController', function ($scope, $http) {-->
+            <!--$scope.Names = ['1', '2', '3'];-->
+            <!--$scope.a1 = function () {-->
+                <!--$scope.Names.push('a');-->
+                <!--$apply();-->
+            <!--};-->
+        <!--});-->
+    <!--</script>-->
+<!--</head>-->
+<!--<body ng-app="test" ng-controller="ModelController">-->
+<!--<div ng-repeat="name in Names" ng-model="Names">{{name}}</div>-->
+<!--<button ng-click="a1();">Add</button>-->
+
+<!--</body>-->
+<!--</html>-->
+<!doctype html>
+<html>
+<head>
+    <title>window.onload示例</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            alert('页面加载完成');
+        }
+        alert('页面尚未加载完成,页面内容不显示');
     </script>
 </head>
-<body ng-app="test" ng-controller="ModelController">
-<div ng-repeat="name in Names" ng-model="Names">{{name}}</div>
-<button ng-click="a1();">Add</button>
-
+<body>
+页面内容
 </body>
 </html>

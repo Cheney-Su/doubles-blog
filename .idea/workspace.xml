@@ -2,105 +2,300 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c78a41f-acf3-4ff7-893c-5be47d91cae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/css/manager_css.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/img/BingWallpaper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/js/rigthNavController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/img/BingWallpaper.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/IKAnalyzer2012FF_u1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/Sdk4J.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/anchor/anchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/attachment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/attachment/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/background/background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/background/background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/background/background.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/background/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/background/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/chart.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/charts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/emotion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/emotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/gmap/gmap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/help/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/help/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/help/help.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/image/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/link/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/map/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/music/music.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/music/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/music/music.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/spechars/spechars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/spechars/spechars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/dragicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/edittable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/edittable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/edittable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/edittd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/table/edittip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/pre0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/pre1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/pre2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/pre3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/images/pre4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/video.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/webapp/webapp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/controller.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/addimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/deletedisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/deleteenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/listbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/en/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/filescan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/loaderror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/video-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/video-js.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/video.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/video-js/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/xss.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.parse.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/doubles/controller/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/com/doubles/controller/BlogController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/doubles/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/doubles/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_32.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.iml" afterPath="$PROJECT_DIR$/blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogClassController.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogClassController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/controller/ReplyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/controller/ReplyController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogClassDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogClassDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/dao/ReplyDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/dao/ReplyDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogClassService.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogClassService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/css/common.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/common/app.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/common/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/common/rightNav.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/common/rightNav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/js/blogController.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/js/blogController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/common/common.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/common/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/manager/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/lib/commons-codec-1.9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.9.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/lib/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/lib/json.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/json.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/lib/ueditor-1.1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ueditor-1.1.2.jar" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,34 +322,76 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#lable#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/controller.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogInfo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogInfo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="171">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,10 +419,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/view/main.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/view/common/common.js" />
@@ -197,18 +430,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/utils/HtmlUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/common/navRight.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/entity/BlogClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/entity/Reply.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/js/replyController.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/service/ReplyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/entity/Blog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/utils/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/web/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/dao/ReplyDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/controller/ReplyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogClassService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/web/common/common.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/js/rigthNavController.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/common/rightNav.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogClassController.java" />
@@ -217,7 +446,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/js/blogController.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/css/login_css.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/css/common.css" />
@@ -225,13 +453,22 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/css/manager_css.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/controller.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/demo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/demo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/common/common.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/doubles/service/BlogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html" />
       </list>
     </option>
@@ -287,17 +524,6 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -323,6 +549,32 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webapp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="doubles-blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webapp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WEB-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -385,7 +637,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ueditor">
+            <PATH_ELEMENT USER_OBJECT="web">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -411,11 +663,105 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ueditor">
+            <PATH_ELEMENT USER_OBJECT="web">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jsp">
+            <PATH_ELEMENT USER_OBJECT="manager">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="doubles-blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="doubles-blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="doubles-blog">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resources">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="common">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -463,59 +809,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="service">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="doubles-blog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/doubles">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="entity">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="doubles-blog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/doubles">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dao">
+            <PATH_ELEMENT USER_OBJECT="utils">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -548,6 +842,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,10 +868,11 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../akhasi" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/controller/UserController.java&#10;userc&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/controller/UserController.java&#10;repl&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/dao/ReplyDao.java&#10;re&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/service/ReplyService.java&#10;keyMap&#9;ACTION&#9;ChangeKeymap" />
+    <property name="SearchEverywhereHistoryKey" value="blogdao&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/dao/BlogDao.java&#10;blogs&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/service/BlogService.java&#10;blogd&#9;PSI&#9;JAVA://com.doubles.dao.BlogDao&#10;user&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/controller/UserController.java&#10;userc&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/controller/UserController.java&#10;repl&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/dao/ReplyDao.java&#10;re&#9;FILE&#9;file://E:/Java/idea_workplace/doubles-blog/src/main/java/com/doubles/service/ReplyService.java&#10;keyMap&#9;ACTION&#9;ChangeKeymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\webapp\WEB-INF\lib" />
       <recent name="E:\cheney\blog\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -577,11 +883,11 @@
       <recent name="com.doubles.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\web\manager" />
+      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates" />
+      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\lib" />
       <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\ueditor\jsp\lib" />
       <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\css" />
-      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates" />
-      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\web\manager" />
-      <recent name="E:\Java\idea_workplace\doubles-blog\src\main\resources\templates\img" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -1074,11 +1380,16 @@
       <workItem from="1476591550235" duration="24816000" />
       <workItem from="1476624728774" duration="5737000" />
       <workItem from="1476710489239" duration="9651000" />
+      <workItem from="1476884795315" duration="7542000" />
+      <workItem from="1476969396144" duration="4115000" />
+      <workItem from="1476977056988" duration="597000" />
+      <workItem from="1478098388547" duration="2666000" />
+      <workItem from="1478522127739" duration="9399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123962000" />
+    <option name="totallyTimeSpent" value="148281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1089,19 +1400,19 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.4924357" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970588" sideWeight="0.5204236" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3496732" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38562092" sideWeight="0.4795764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30555555" sideWeight="0.4795764" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1137,743 +1448,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/utils/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/js/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="10460" column="16" selection-start-line="10460" selection-start-column="16" selection-end-line="10460" selection-end-column="16" />
-          <folding>
-            <marker date="1476104603758" expanded="true" signature="22310:22836" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="22353:22742" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="22851:23287" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="22930:23272" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="22958:23272" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="23023:23110" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="23145:23240" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="41237:41292" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="41424:41470" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="41691:42603" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="41734:41947" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="41787:41935" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="41991:42224" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="42064:42212" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="42266:42591" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="42319:42579" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="42695:42829" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="42881:42931" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="42938:43132" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="43169:43248" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="43197:43247" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="43342:43380" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="43490:43628" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="43664:43752" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="43787:43900" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="157286:157406" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="157550:157956" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="157644:157955" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="157692:157939" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="157711:157803" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="158030:158095" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="158114:158184" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="158626:158759" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="158701:158743" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="158835:158878" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="159001:159137" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="159043:159136" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159174:159833" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="159268:159822" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159317:159806" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159415:159614" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159436:159546" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="159620:159789" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159641:159734" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="159900:159942" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="159961:160057" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="160082:160234" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="160263:160338" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="202598:203150" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="202863:202967" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="203043:203138" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="203273:203669" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="203333:203668" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="203461:203656" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="203517:203571" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="203721:203760" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245121:246381" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="245192:246214" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245202:245334" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="245400:246204" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245506:246193" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245564:245695" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245727:246166" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="245745:245835" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="245890:246097" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="246254:246365" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="246282:246364" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="246426:246552" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="246660:246964" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="359823:359953" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="360078:360264" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="360130:360263" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="396129:397127" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="396173:396278" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="396593:396775" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="396839:396989" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="397294:398054" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="397389:397644" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="397497:397643" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="397689:398054" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="397820:398054" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="397991:398054" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="398726:398804" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="398899:399068" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="399348:399429" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="424720:425133" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="424869:425113" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="425033:425113" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="425196:425228" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="425363:425486" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="431009:431691" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="431068:431146" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="431170:431493" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="431517:431666" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="443056:446108" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="443177:446078" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="443256:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="443472:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="443663:443977" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="443733:443880" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="443886:443955" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="444062:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="444113:444222" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="444301:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="444468:444598" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="444645:444805" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="444859:446078" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="444946:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="445092:446078" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="445176:445270" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="445313:445404" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="445557:445654" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="445753:445907" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="445962:446035" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="446154:446877" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="446217:446849" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="488536:488666" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="488578:488665" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="488751:489135" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="667548:668208" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="667936:668192" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="668002:668174" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="668355:668864" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="668442:668863" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="668567:668628" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="668932:669194" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="668943:669082" ph="{&quot;name&quot;: &quot;Alice&quot;...}" />
-            <marker date="1476104603758" expanded="true" signature="669100:669194" ph="{&quot;name&quot;: &quot;Bob&quot;...}" />
-            <marker date="1476104603758" expanded="true" signature="669315:669862" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="669374:669527" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="669603:669851" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="710978:711296" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="711059:711280" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="711107:711279" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="711209:711265" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="711341:711460" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="711593:711770" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="711669:711762" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="714435:714513" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="714654:714775" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="720075:720263" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="720177:720249" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="720513:720713" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="720621:720699" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="720837:721075" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="720935:721064" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="720976:721051" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="721161:721481" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="721579:721787" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="721866:722132" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="726876:727056" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="726959:727040" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="726987:727039" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="727101:727455" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="727568:727828" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="727867:728439" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="727918:728072" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="727931:728042" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="729947:730131" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="730034:730115" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="730062:730114" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="730176:730423" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="730533:730789" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="730829:731183" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="742563:743184" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="746788:746997" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="748861:749253" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="748943:749237" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="748971:749236" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="749298:749757" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="750332:750777" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="750786:751438" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="751512:752016" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="754688:755196" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="754770:755180" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="754798:755179" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="754847:755125" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="755241:755946" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="755410:755934" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="755420:755751" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="755430:755569" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="755819:755920" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="756369:756897" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="756397:756885" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="756407:756730" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="756417:756543" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="756770:756871" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="757022:757668" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="757070:757667" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="757143:757475" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="757531:757618" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="764572:764782" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="764870:765080" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="765168:765666" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="765309:765438" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="765474:765616" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="765545:765602" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="765774:765984" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="766081:766293" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="766360:766949" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="766597:766726" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="766761:766901" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="766832:766887" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="769853:770077" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="771333:771560" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="772829:773067" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="774164:774275" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="774388:774609" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="775713:775766" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="775873:776090" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="794921:795096" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="794997:795080" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="795025:795079" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="795109:795332" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="795125:795255" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="795281:795319" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="795405:795862" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="795977:796223" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="796276:796647" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="804249:804488" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="804341:804468" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="804369:804467" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="804552:805201" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="804632:804675" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="804744:804770" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="804838:804872" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="805491:805614" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="805671:805854" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="805916:806056" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="808365:808570" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="808454:808550" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="808482:808549" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="808643:809374" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="808759:808829" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="808898:808924" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="808989:809023" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="809644:809842" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="809875:810875" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="810276:810422" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="810478:810644" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="810703:810874" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="813193:813398" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="813277:813378" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="813305:813377" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="813471:814265" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="813605:813702" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="813771:813797" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="813871:813905" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="814544:814738" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="814771:815745" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="815160:815745" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="815365:815745" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="815582:815745" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="818238:818440" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="818322:818421" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="818350:818421" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="818513:819243" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="818636:818700" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="818769:818795" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="818860:818894" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="819511:819705" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="819738:820690" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="820127:820690" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="820321:820690" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="820538:820690" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="822960:823151" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="823044:823132" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="823072:823132" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="823224:823955" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="823348:823412" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="823481:823507" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="823572:823606" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="824223:824417" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="824450:825402" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="824839:825402" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="825033:825402" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="825250:825402" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="827724:827916" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="827809:827897" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="827837:827897" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="827989:828713" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="828108:828169" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="828238:828264" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="828330:828365" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="828980:829174" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="829207:830157" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="829596:830157" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="829789:830157" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="830006:830157" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="832934:833122" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="833023:833102" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="833051:833101" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="833186:833816" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="833264:833290" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="833359:833385" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="833452:833486" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="834109:834230" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="834287:834471" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="834531:834718" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="837387:837588" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="837473:837568" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="837501:837567" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="837652:838308" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="837792:837818" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="837882:837913" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="838598:838733" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="838790:838973" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="839032:839164" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="841881:842077" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="841969:842057" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="841997:842056" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="842141:842809" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="842285:842311" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="842377:842410" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="843099:843227" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="843284:843466" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="843527:843659" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="844608:844922" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="844696:844902" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="844724:844901" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="844801:844885" ph="{&quot;id&quot;: &quot;12345&quot;...}" />
-            <marker date="1476104603758" expanded="true" signature="844986:845275" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="845506:845744" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="846679:846909" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="846770:846889" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="846798:846888" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="846973:847259" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="847106:847150" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="847379:847827" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="867887:868089" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="867967:868073" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="867995:868072" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="868134:869258" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="868160:868649" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="868310:868332" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="868414:868449" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="868518:868541" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="868610:868632" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="869813:870023" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="870090:870359" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="870433:870708" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="870785:871120" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="871190:871550" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="873358:873612" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="873438:873596" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="873466:873595" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="873658:873948" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="873750:873893" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="873795:873879" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="874120:874191" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="874253:874384" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="876397:876573" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="876476:876557" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="876504:876556" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="876618:876728" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="876837:877108" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="878596:878812" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="878675:878796" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="878703:878795" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="878857:879044" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="879153:879625" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="881790:881837" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="881975:882164" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="882003:882163" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="882280:882417" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="884679:884967" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="884778:884945" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="884806:884944" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="884881:884930" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="885018:885392" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="885668:886160" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="885989:886160" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="893937:893987" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="893999:894039" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="894050:894083" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="894243:894624" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="894687:894916" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="894978:895287" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="895815:895975" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="896003:896058" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="896167:896586" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="898070:898211" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="898106:898200" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="898162:898189" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="898265:898296" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="898308:898340" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="898471:898736" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="899609:899771" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="899645:899760" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="899701:899749" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="899825:899856" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="899868:899900" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="900031:900296" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="902649:902823" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="906556:907303" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="906728:907286" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="906788:907190" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="906837:906947" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="907521:907706" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="907581:907693" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="907773:908312" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="907881:907970" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="908061:908312" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="908251:908312" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="908449:909630" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="909923:910600" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="910073:910584" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="910123:910499" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="910171:910278" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="910829:911553" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="910891:910997" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="911043:911553" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="911133:911224" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="911293:911553" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="911469:911553" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="911675:912795" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="915617:915923" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="915628:915763" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="915716:915751" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="915775:915911" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="915862:915899" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="916051:916450" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916125:916178" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916219:916433" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916281:916335" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916346:916415" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916765:917043" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916851:917029" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="916911:917013" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917073:917125" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917158:917448" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917225:917434" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917318:917420" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917483:917898" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917550:917884" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917633:917748" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917681:917732" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917777:917870" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="917927:918055" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="918064:918254" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="918301:918334" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="918407:918761" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="918518:918607" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="918670:918717" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="918815:918990" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="919067:919237" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="920081:920111" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="920123:920158" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="920268:920462" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="923253:923301" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="923899:923945" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="924493:924537" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="925094:925145" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="925708:925758" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="926321:926371" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="926929:926978" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="930107:930495" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="930188:930479" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="930216:930478" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="930322:930465" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="930355:930451" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="930562:930747" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="930858:931135" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="931188:931436" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="937611:937677" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="937743:937832" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="937882:938039" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="938110:938138" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="938209:938237" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="942759:943085" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="942832:942886" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="942996:943073" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="943220:943468" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="943248:943467" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="943291:943407" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="943704:943844" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="943866:943897" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="943953:944249" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944280:944308" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944354:944378" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944409:944433" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944479:944506" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944734:944819" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944872:945243" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944923:945066" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="944935:945038" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="945292:945574" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="945343:945420" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="953875:954058" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="953954:954042" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="953982:954041" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="954103:954375" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="954174:954363" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="954246:954351" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="954492:954852" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="956423:956524" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="956451:956523" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="956641:957211" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="956796:956827" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="957586:958090" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="957849:958090" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="958515:958765" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="967855:967956" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="967975:968015" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968147:969337" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="968171:969336" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968190:969325" ph="{&quot;restrict&quot;: 'A'...}" />
-            <marker date="1476104603758" expanded="true" signature="968384:969313" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968422:968501" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="968545:968639" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968759:968816" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968841:968896" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="968927:969299" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="968988:969134" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="969190:969238" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="969407:969672" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="969439:969529" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="969796:970424" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="969883:970030" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="969893:970006" ph="//..." />
-            <marker date="1476104603758" expanded="true" signature="982405:982579" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="982433:982518" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="982483:982518" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="982519:982542" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="982697:982732" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="982733:982770" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="982943:983809" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="982968:983116" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="983309:983783" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1004136:1004304" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1004216:1004288" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1004244:1004287" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1004317:1004572" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1004334:1004468" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1004495:1004559" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1004722:1004815" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1006154:1006398" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1006182:1006322" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1006239:1006309" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1006524:1006821" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1006552:1006820" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1006611:1006808" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1006650:1006795" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1006699:1006751" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1012680:1013029" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1012708:1012955" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1012765:1012864" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1013150:1013405" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1013178:1013404" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1013270:1013393" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1013305:1013381" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1013671:1013862" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1013933:1014220" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1014611:1014947" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1014639:1014873" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1014696:1014762" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1015068:1015149" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1015096:1015148" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1015397:1015641" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1015425:1015565" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1015482:1015552" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1015767:1016006" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1015795:1016005" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1015852:1015994" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1015890:1015982" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1021941:1022103" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1027232:1027493" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1027316:1027477" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1027344:1027476" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1027538:1028616" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1027904:1028088" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1028204:1028604" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1028742:1030017" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1030071:1030609" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1041656:1042128" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1041824:1042116" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1041909:1041991" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1042052:1042105" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1042209:1042343" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1042366:1042457" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1042550:1042639" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1042748:1042798" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1042922:1042975" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1043160:1043585" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1043664:1043981" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1061035:1061232" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1061110:1061220" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1061243:1061439" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1061318:1061427" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1061624:1061763" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1061872:1061963" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1061992:1062070" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1062092:1062184" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1062437:1062708" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1067909:1068106" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1067984:1068094" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1068117:1068313" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1068192:1068301" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1068498:1068719" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1068748:1068826" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1068848:1068940" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1069193:1069464" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1071208:1071241" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1071397:1071751" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1075037:1075484" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1075108:1075123" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1075221:1075472" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1075618:1075760" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1075646:1075759" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1075841:1075981" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076004:1076035" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076069:1076320" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076399:1076427" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076505:1076529" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076746:1076817" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1076864:1076985" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1077032:1077151" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1081065:1081681" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1081146:1081458" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1081168:1081450" ph="{&quot;restrict&quot;: 'E'...}" />
-            <marker date="1476104603758" expanded="true" signature="1081498:1081665" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1081526:1081664" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1081726:1081868" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1081980:1082396" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1083924:1083969" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1084249:1084398" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1091603:1092060" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1091684:1092044" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1091712:1092043" ph="{...}" />
-            <marker date="1476104603758" expanded="true" signature="1091742:1091976" ph="[...]" />
-            <marker date="1476104603758" expanded="true" signature="1092105:1093135" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092115:1092344" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092153:1092262" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092272:1092333" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092534:1092689" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092611:1092676" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1092822:1092837" ph="..." />
-            <marker date="1476104603758" expanded="false" signature="1093025:1093060" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1093066:1093123" ph="..." />
-            <marker date="1476104603758" expanded="true" signature="1093247:1093858" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/service/ReplyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/dao/ReplyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="114" column="25" selection-start-line="113" selection-start-column="12" selection-end-line="114" selection-end-column="25" />
-          <folding>
-            <marker date="1476599026224" expanded="true" signature="4881:4923" ph="insert into tb_reply... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/entity/BlogClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <marker date="1476600743106" expanded="true" signature="703:763" ph="select * fro... tb_blog" />
-            <marker date="1476600743106" expanded="true" signature="2045:2091" ph="select * fro... tb_blog" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1882,47 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/service/BlogClassService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/entity/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogClassDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#1230#1236#0" expanded="false" />
-            <marker date="1476603857087" expanded="true" signature="667:722" ph="select * fro... tb_blogclass" />
-            <marker date="1476603857087" expanded="true" signature="1262:1319" ph="select t1.* tb_blogclass" />
-            <marker date="1476603857087" expanded="true" signature="1262:1345" ph="select t1.* tb_blogclass" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1931,34 +1468,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/ReplyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="37" column="67" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1966,7 +1479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1974,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1982,9 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="83" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="83" />
-          <folding>
-            <marker date="1476607444983" expanded="true" signature="553:614" ph="select * fro... tb_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1992,31 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="4795" column="2" selection-start-line="4795" selection-start-column="2" selection-end-line="4795" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/js/blogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2024,31 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/loginManagerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2056,60 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-          <folding>
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2117,7 +1521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2125,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2133,7 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2141,17 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2159,34 +1549,253 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="300" selection-start-line="0" selection-start-column="300" selection-end-line="0" selection-end-column="300" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="19">
           <caret line="29439" column="22" selection-start-line="29439" selection-start-column="13" selection-end-line="29439" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/themes/default/css/ueditor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/lang/zh-cn/zh-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogClassController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/service/BlogClassService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogClassDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/ReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/controller.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        <state relative-caret-position="57">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/entity/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1057#1058#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1349#1350#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1428#1429#0" expanded="false" />
+            <element signature="e#1468#1469#0" expanded="false" />
+            <element signature="e#1502#1503#0" expanded="false" />
+            <element signature="e#1532#1533#0" expanded="false" />
+            <element signature="e#1578#1579#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
+            <element signature="e#1652#1653#0" expanded="false" />
+            <element signature="e#1684#1685#0" expanded="false" />
+            <element signature="e#1734#1735#0" expanded="false" />
+            <element signature="e#1776#1777#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#1852#1853#0" expanded="false" />
+            <element signature="e#1910#1911#0" expanded="false" />
+            <element signature="e#1960#1961#0" expanded="false" />
+            <element signature="e#1995#1996#0" expanded="false" />
+            <element signature="e#2029#2030#0" expanded="false" />
+            <element signature="e#2080#2081#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+            <element signature="e#2161#2162#0" expanded="false" />
+            <element signature="e#2192#2193#0" expanded="false" />
+            <element signature="e#2240#2241#0" expanded="false" />
+            <element signature="e#2280#2281#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/config.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/service/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/dao/BlogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="83" column="60" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
+          <folding>
+            <marker date="1478525563400" expanded="true" signature="761:821" ph="select * fro... tb_blog" />
+            <marker date="1478525563400" expanded="true" signature="2035:2081" ph="select * fro... tb_blog" />
+            <marker date="1478525563400" expanded="true" signature="3186:3237" ph="insert into tb_blog... " />
+            <marker date="1478525563400" expanded="true" signature="3732:3762" ph="delete from " />
+            <marker date="1478525563400" expanded="true" signature="3732:3763" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/loginManagerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -2194,19 +1803,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="217">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/doubles/controller/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
-            <element signature="n#style#0;n#lable#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ueditor/jsp/controller.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/common/blogList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="437">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/js/blogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/blogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/blogInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/web/manager/blogInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
